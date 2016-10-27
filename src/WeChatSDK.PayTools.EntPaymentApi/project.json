@@ -1,0 +1,35 @@
+﻿{
+  "version": "1.0.0-Beta",
+  "title": "Wlitsoft.Framework.SDK.WeChatSDK.PayTools.EntPaymentApi",
+  "copyright": "Wlitsoft 2012 - 2016",
+  "description": "Wlitsoft 框架 - 软件开发工具包 - 微信开发 - 支付工具 企业付款接口",
+  "authors": [ "LILIANG" ],
+  "language": "zh-CN",
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/wlitsoft/wechatsdk"
+    },
+    "tags": [
+      "common",
+      "wlitsoft",
+      "framework",
+      "wechatsdk"
+    ]
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+  "buildOptions": {
+    "outputName": "Wlitsoft.Framework.SDK.WeChatSDK.PayTools.EntPaymentApi",
+    "keyFile": "../../tools/Wlitsoft.Framework.snk",
+    "nowarn": [ "CS1591" ],
+    "xmlDoc": true
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
